@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">NGO Tracker Mum</string>
+    <string-array name="Locations">
+        <item>Choose location</item>
+        <item>Dahisar</item>
+        <item>Borivali</item>
+        <item>Kandivali</item>
+        <item>Malad</item>
+        <item>Goregaon</item>
+        <item>Oshiwara</item>
+        <item>Jogeshwari</item>
+        <item>Andheri</item>
+        <item>Vile Parle</item>
+        <item>Santacruz</item>
+        <item>Khar Road</item>
+        <item>Bandra</item>
+        <item>Mahim</item>
+        <item>Matunga</item>
+        <item>Dadar</item>
+    </string-array>
+    <string-array name="Causes">
+        <item>Choose cause</item>
+        <item>Old age homes</item>
+        <item>Animal welfare</item>
+        <item>Child Education</item>
+        <item>Women health and safety</item>
+        <item>HIV/AI-DS awareness and help</item>
+        <item>Cancer</item>
+        <item>Disability and Physical challenged</item>
+        <item>Homelessness</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="choose_location">Choose location</string>
+    <string name="choose_cause">Choose location</string>
+</resources>

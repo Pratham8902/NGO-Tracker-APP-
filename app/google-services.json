@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "275548934011",
+    "project_id": "ngotrackermum",
+    "storage_bucket": "ngotrackermum.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275548934011:android:cb2c07fe4a69f0825737de",
+        "android_client_info": {
+          "package_name": "com.example.ngotrackermum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275548934011-n6m6spsouuhhs1t7c1divpr5cg3m7tcs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGKUuo-kypvKjQWP7g5SGu_WHExoGKL_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275548934011-n6m6spsouuhhs1t7c1divpr5cg3m7tcs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context=".MainActivity2">
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="392dp"
+        android:layout_height="45dp"
+        android:spinnerMode="dropdown"
+        android:text="Choose Cause"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="390dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Enter Pincode"
+        android:textColorHint="#8EA9E1"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="387dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:text="Choose From Map"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="392dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:spinnerMode="dropdown"
+        android:text="@string/choose_location"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="108dp"
+        android:layout_height="59dp"
+        android:text="EXPLORE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:layout_constraintVertical_bias="0.899" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
